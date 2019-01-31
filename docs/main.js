@@ -72,11 +72,11 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.assetsList = [
-            "/assets/img/twitter_logo.png",
-            "/assets/img/unko.png",
-            "/assets/img/emoji100.png",
-            "/assets/img/baby.png",
-            "/assets/img/kinniku.png"
+            "./assets/img/twitter_logo.png",
+            "./assets/img/unko.png",
+            "./assets/img/emoji100.png",
+            "./assets/img/baby.png",
+            "./assets/img/kinniku.png"
         ];
     }
     AppComponent.prototype.ngOnInit = function () {

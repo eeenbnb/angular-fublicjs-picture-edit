@@ -12,11 +12,11 @@ export class AppComponent implements OnInit{
   @ViewChild("canvas")canvasElement:ElementRef;
   canvas:any;
   assetsList:any = [
-    "/assets/img/twitter_logo.png",
-    "/assets/img/unko.png",
-    "/assets/img/emoji100.png",
-    "/assets/img/baby.png",
-    "/assets/img/kinniku.png"
+    "./assets/img/twitter_logo.png",
+    "./assets/img/unko.png",
+    "./assets/img/emoji100.png",
+    "./assets/img/baby.png",
+    "./assets/img/kinniku.png"
   ];
 
   ngOnInit(){
